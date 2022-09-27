@@ -3,7 +3,7 @@ module.exports = {
       {
         name: "app-front",
         script: "npm",
-        args: "run start",
+        args: "run start --disable-host-check",
       },
     ],
   };
